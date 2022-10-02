@@ -57,7 +57,6 @@ int main()
     if (input=="exit"){ //if user typed exit, then exit
         exit(0); //exit returning 0 meaning program didn't encounter errors
     }else if (input=="new"){ //if user typed new, then go back to the start of main
-        system("cls"); //clear the window
         main(); //go back to the beginning
     }else{
         error();//error
